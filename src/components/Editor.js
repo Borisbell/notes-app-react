@@ -10,8 +10,7 @@ function Editor(props) {
         strikethrough: true,
         tasklists: true
       });
-
-    const [value, setValue] = React.useState("**Hello world!!!**");
+      
     const [selectedTab, setSelectedTab] = React.useState("write")
 
   return (
